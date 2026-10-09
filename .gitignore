@@ -1,0 +1,36 @@
+# The script creates empty .nomedia marker files. If you run it inside a clone of
+# this repo it would drop them here, and this repo has none of its own to track.
+.nomedia
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments and local config
+.venv/
+venv/
+env/
+.env
+
+# Packaging
+build/
+dist/
+*.egg-info/
+
+# Logs and temporary files
+*.log
+*.tmp
+*.swp
+*.swo
+
+# Editors and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
